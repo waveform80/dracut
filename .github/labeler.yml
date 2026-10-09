@@ -216,6 +216,10 @@ fips-crypto-policies:
     - changed-files:
           - any-glob-to-any-file: 'modules.d/[0-9][0-9]fips-crypto-policies/*'
 
+fixrtc:
+    - changed-files:
+          - any-glob-to-any-file: 'modules.d/[0-9][0-9]fixrtc/*'
+
 fs-lib:
     - changed-files:
           - any-glob-to-any-file: 'modules.d/[0-9][0-9]fs-lib/*'
