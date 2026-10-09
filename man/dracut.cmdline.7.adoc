@@ -110,6 +110,13 @@ resume=UUID=3f5ad593-4546-4a94-a374-bcfb68aa11f7
     the init system performs fsck before remount, you might want to use this
     option to avoid duplication.
 
+**rd.fixrtc**::
+    move the system clock forwards to the last mount (or creation) time of the
+    root filesystem, which must be ext2/3/4. This is intended for systems
+    without a working RTC, where fsck may fail because the superblock appears
+    to have been written in the future.
+    Requires the dracut 'fixrtc' module.
+
 iso-scan/filename
 ~~~~~~~~~~~~~~~~~
 

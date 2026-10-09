@@ -109,6 +109,10 @@ code, there are no specific types or categories for dracut modules.
 | crypto-policies
 | utils
 
+| fixrtc
+| Set system clock to rootfs' last mount time (for systems without an RTC)
+|
+
 | fs-lib
 | filesystem tools (including fsck.* and mount)
 | library
